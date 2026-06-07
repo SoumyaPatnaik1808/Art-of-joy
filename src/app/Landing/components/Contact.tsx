@@ -31,7 +31,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="w-full bg-[#F7F5F0] text-[#1E1A15] dark:bg-[#090B0D] dark:text-white py-20 md:py-28 relative overflow-hidden border-t border-[#E5E0D2] dark:border-gold-primary/10">
+    <section id="contact" className="w-full bg-[#F2EBE2] text-[#1e1b42] dark:bg-[#101119] dark:text-white py-20 md:py-28 relative overflow-hidden border-t border-[#E5E0D2] dark:border-gold-primary/10">
       {/* Background visual element */}
       <div className="absolute top-0 right-1/4 w-[300px] h-[300px] bg-gold-primary/3 blur-[100px] rounded-full pointer-events-none" />
       <div className="absolute bottom-0 left-1/4 w-[300px] h-[300px] bg-gold-primary/3 blur-[100px] rounded-full pointer-events-none" />
@@ -45,21 +45,21 @@ export default function Contact() {
             <span className="text-[10px] font-sans tracking-[0.3em] text-gold-dark dark:text-gold-accent font-bold uppercase mb-3">
               GET IN TOUCH
             </span>
-            <h2 className="text-4xl md:text-5xl font-serif font-light text-[#1E1A15] dark:text-white tracking-wide leading-tight mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-light text-[#1e1b42] dark:text-white tracking-wide leading-tight mb-6">
               Begin the Journey
             </h2>
-            <p className="text-sm md:text-base font-serif text-[#5A5245] dark:text-white/70 leading-relaxed font-light mb-8 max-w-sm">
+            <p className="text-sm md:text-base font-serif text-[#1e1b42]/80 dark:text-white/70 leading-relaxed font-light mb-8 max-w-sm">
               If you feel called to explore these devotional media downloads, online courses, or audio packages, we are here to support your practice.
             </p>
 
-            <div className="space-y-6 font-sans text-xs md:text-sm text-[#5A5245] dark:text-white/60 tracking-wider">
+            <div className="space-y-6 font-sans text-xs md:text-sm text-[#1e1b42]/80 dark:text-white/60 tracking-wider">
               {/* Store & Support */}
               <div className="flex items-start gap-4">
                 <svg viewBox="0 0 24 24" className="w-5 h-5 text-gold-dark dark:text-gold-accent mt-0.5" fill="none" stroke="currentColor" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                 </svg>
                 <div className="flex flex-col">
-                  <span className="font-semibold text-[#1E1A15] dark:text-white">Devotional Bookstore & Media</span>
+                  <span className="font-semibold text-[#1e1b42] dark:text-white">Devotional Bookstore & Media</span>
                   <span>Online Store Support</span>
                   <span>9:00 AM - 6:00 PM EST</span>
                 </div>
@@ -71,7 +71,7 @@ export default function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 <div className="flex flex-col">
-                  <span className="font-semibold text-[#1E1A15] dark:text-white">Media Support Email</span>
+                  <span className="font-semibold text-[#1e1b42] dark:text-white">Media Support Email</span>
                   <a href="mailto:support@artofliving.org" className="hover:text-gold-dark dark:hover:text-gold-accent transition-colors duration-300">support@artofliving.org</a>
                 </div>
               </div>
@@ -80,14 +80,14 @@ export default function Contact() {
 
           {/* Right Column: Glassmorphic Inquiry Form - 7 Cols */}
           <div className="lg:col-span-7 w-full">
-            <div className="bg-[#EAE5DB]/50 border border-gold-primary/10 dark:bg-white/5 dark:border-white/10 p-8 md:p-10 rounded-[2rem] shadow-xl backdrop-blur-md">
+            <div className="bg-[#1e1b42]/5 border border-gold-primary/10 dark:bg-white/5 dark:border-white/10 p-8 md:p-10 rounded-[2rem] shadow-xl backdrop-blur-md">
               {submitted ? (
                 <div className="py-16 text-center animate-fade-in">
                   <svg viewBox="0 0 24 24" className="w-12 h-12 text-gold-dark dark:text-gold-accent mx-auto mb-6" fill="none" stroke="currentColor" strokeWidth="2">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <h3 className="text-2xl font-serif text-[#1E1A15] dark:text-white mb-2">Inquiry Received</h3>
-                  <p className="text-xs md:text-sm font-sans text-[#5A5245] dark:text-white/60">
+                  <h3 className="text-2xl font-serif text-[#1e1b42] dark:text-white mb-2">Inquiry Received</h3>
+                  <p className="text-xs md:text-sm font-sans text-[#1e1b42]/80 dark:text-white/60">
                     Thank you for reaching out. Our support team will review your inquiry and reply soon.
                   </p>
                 </div>
@@ -105,7 +105,7 @@ export default function Contact() {
                       required
                       value={formState.name}
                       onChange={handleChange}
-                      className="w-full bg-white/70 border border-[#E5E0D2] text-[#1E1A15] dark:bg-white/5 dark:border-white/10 dark:text-white rounded-xl px-4 py-3 text-sm font-sans focus:outline-none focus:border-gold-primary transition-colors duration-300"
+                      className="w-full bg-white/70 border border-[#E5E0D2] text-[#1e1b42] dark:bg-white/5 dark:border-white/10 dark:text-white rounded-xl px-4 py-3 text-sm font-sans focus:outline-none focus:border-gold-primary transition-colors duration-300"
                       placeholder="Your name"
                     />
                   </div>
@@ -122,7 +122,7 @@ export default function Contact() {
                       required
                       value={formState.email}
                       onChange={handleChange}
-                      className="w-full bg-white/70 border border-[#E5E0D2] text-[#1E1A15] dark:bg-white/5 dark:border-white/10 dark:text-white rounded-xl px-4 py-3 text-sm font-sans focus:outline-none focus:border-gold-primary transition-colors duration-300"
+                      className="w-full bg-white/70 border border-[#E5E0D2] text-[#1e1b42] dark:bg-white/5 dark:border-white/10 dark:text-white rounded-xl px-4 py-3 text-sm font-sans focus:outline-none focus:border-gold-primary transition-colors duration-300"
                       placeholder="you@example.com"
                     />
                   </div>
@@ -137,7 +137,7 @@ export default function Contact() {
                       name="interest"
                       value={formState.interest}
                       onChange={handleChange}
-                      className="w-full bg-white border border-[#E5E0D2] text-[#1E1A15] dark:bg-black/90 dark:border-white/10 dark:text-white rounded-xl px-4 py-3 text-sm font-sans focus:outline-none focus:border-gold-primary transition-colors duration-300 cursor-pointer"
+                      className="w-full bg-white border border-[#E5E0D2] text-[#1e1b42] dark:bg-black/90 dark:border-white/10 dark:text-white rounded-xl px-4 py-3 text-sm font-sans focus:outline-none focus:border-gold-primary transition-colors duration-300 cursor-pointer"
                     >
                       <option value="general">General Support</option>
                       <option value="courses">Online Course Enrollment</option>
@@ -159,7 +159,7 @@ export default function Contact() {
                       required
                       value={formState.message}
                       onChange={handleChange}
-                      className="w-full bg-white/70 border border-[#E5E0D2] text-[#1E1A15] dark:bg-white/5 dark:border-white/10 dark:text-white rounded-xl px-4 py-3 text-sm font-sans focus:outline-none focus:border-gold-primary transition-colors duration-300 resize-none"
+                      className="w-full bg-white/70 border border-[#E5E0D2] text-[#1e1b42] dark:bg-white/5 dark:border-white/10 dark:text-white rounded-xl px-4 py-3 text-sm font-sans focus:outline-none focus:border-gold-primary transition-colors duration-300 resize-none"
                       placeholder="Share what brought you here..."
                     />
                   </div>
@@ -167,7 +167,7 @@ export default function Contact() {
                   {/* Submit */}
                   <button
                     type="submit"
-                    className="w-full py-4 bg-gold-primary hover:bg-gold-accent text-[#0D0F12] font-semibold text-xs font-sans tracking-[0.25em] rounded-xl transition-all duration-300 uppercase shadow-lg shadow-gold-primary/10 hover:shadow-gold-primary/20 cursor-pointer"
+                    className="w-full py-4 bg-gold-primary hover:bg-gold-accent text-[#1e1b42] font-semibold text-xs font-sans tracking-[0.25em] rounded-xl transition-all duration-300 uppercase shadow-lg shadow-gold-primary/10 hover:shadow-gold-primary/20 cursor-pointer"
                   >
                     SEND INQUIRY
                   </button>
@@ -179,7 +179,7 @@ export default function Contact() {
         </div>
 
         {/* Global Footer Area */}
-        <footer className="mt-20 md:mt-28 border-t border-[#E5E0D2] dark:border-white/10 pt-12 flex flex-col md:flex-row items-center justify-between gap-6 font-sans text-xs text-[#5A5245]/70 dark:text-white/50 tracking-wider">
+        <footer className="mt-20 md:mt-28 border-t border-[#E5E0D2] dark:border-white/10 pt-12 flex flex-col md:flex-row items-center justify-between gap-6 font-sans text-xs text-[#1e1b42]/70 dark:text-white/50 tracking-wider">
           <div className="flex items-center gap-2">
             <svg viewBox="0 0 100 100" className="w-6 h-6 text-gold-dark dark:text-gold-accent">
               <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" strokeWidth="2" />

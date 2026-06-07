@@ -69,13 +69,13 @@ export default function Pillars() {
   ];
 
   return (
-    <section id="pillars" className="w-full bg-[#FAF9F6] dark:bg-[#0D0F12] text-[#111111] dark:text-white/90 py-16 md:py-24 border-t border-[#E5E0D2] dark:border-gold-primary/10">
+    <section id="pillars" className="w-full bg-[#F2EBE2] dark:bg-[#101119] text-[#1e1b42] dark:text-white/90 py-16 md:py-24 border-t border-[#E5E0D2] dark:border-gold-primary/10">
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 divide-y md:divide-y-0 md:divide-x divide-[#E5E0D2] dark:divide-gold-primary/10">
           {pillarsList.map((pillar, idx) => (
             <div
               key={idx}
-              className="group flex flex-col items-center text-center p-8 transition-all duration-500 hover:bg-[#EAE5DB]/30 dark:hover:bg-white/5"
+              className="group flex flex-col items-center text-center p-8 transition-all duration-500 hover:bg-[#1e1b42]/5 dark:hover:bg-white/5"
             >
               {/* Icon Container */}
               <div className="mb-6 transform group-hover:scale-110 transition-transform duration-500">
@@ -83,12 +83,12 @@ export default function Pillars() {
               </div>
 
               {/* Title */}
-              <h3 className="text-xs md:text-sm font-sans font-bold tracking-[0.25em] text-[#000000] dark:text-white mb-4">
+              <h3 className="text-xs md:text-sm font-sans font-bold tracking-[0.25em] text-[#1e1b42] dark:text-white mb-4">
                 {pillar.title}
               </h3>
 
               {/* Description */}
-              <p className="text-xs md:text-sm font-sans text-[#222222] dark:text-white/70 font-semibold dark:font-light leading-relaxed max-w-[240px]">
+              <p className="text-xs md:text-sm font-sans text-[#1e1b42] dark:text-white/70 font-semibold dark:font-light leading-relaxed max-w-[240px]">
                 {pillar.description}
               </p>
             </div>

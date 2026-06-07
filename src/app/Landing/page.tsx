@@ -19,7 +19,7 @@ export default function LandingPage() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#FAF9F6] dark:bg-[#0D0F12] text-[#111111] dark:text-white overflow-x-hidden selection:bg-gold-primary selection:text-[#0D0F12]">
+    <div className="flex flex-col min-h-screen bg-[#F2EBE2] dark:bg-[#101119] text-[#1e1b42] dark:text-white overflow-x-hidden selection:bg-gold-primary selection:text-[#1e1b42]">
       {/* Floating Header Navbar */}
       <Navbar />
 

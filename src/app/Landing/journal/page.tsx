@@ -51,7 +51,7 @@ export default function JournalPage() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#FAF9F6] dark:bg-[#0D0F12] text-[#111111] dark:text-white overflow-x-hidden selection:bg-gold-primary selection:text-[#0D0F12]">
+    <div className="flex flex-col min-h-screen bg-[#F2EBE2] dark:bg-[#101119] text-[#1e1b42] dark:text-white overflow-x-hidden selection:bg-gold-primary selection:text-[#1e1b42]">
       <Navbar />
 
       <main className="flex-1 pt-32 pb-16">
@@ -61,11 +61,11 @@ export default function JournalPage() {
           <span className="text-[10px] font-sans tracking-[0.3em] text-gold-accent font-bold uppercase mb-4 block">
             SACRED REFLECTIONS
           </span>
-          <h1 className="text-4xl md:text-6xl font-serif font-light text-[#111111] dark:text-white tracking-wide mb-6">
+          <h1 className="text-4xl md:text-6xl font-serif font-light text-[#1e1b42] dark:text-white tracking-wide mb-6">
             The Journal Essays
           </h1>
           <div className="w-16 h-[1px] bg-gold-primary mx-auto my-6" />
-          <p className="text-base md:text-lg font-serif text-[#222222] dark:text-white/80 leading-relaxed font-semibold dark:font-light">
+          <p className="text-base md:text-lg font-serif text-[#1e1b42] dark:text-white/80 leading-relaxed font-semibold dark:font-light">
             Curated essays, dialogues, and insights from our teachers, designed to inspire your daily practice and contemplation.
           </p>
         </section>
@@ -81,24 +81,24 @@ export default function JournalPage() {
               {/* Meta details */}
               <div className="flex items-center gap-4 text-[10px] font-sans text-gold-dark dark:text-gold-accent font-bold dark:font-semibold tracking-wider mb-6">
                 <span>BY {essay.author.toUpperCase()}</span>
-                <span className="w-1.5 h-1.5 bg-[#1E1A15]/20 dark:bg-white/20 rounded-full" />
-                <span className="text-[#5A5245] dark:text-white/50">{essay.date}</span>
-                <span className="w-1.5 h-1.5 bg-[#1E1A15]/20 dark:bg-white/20 rounded-full" />
-                <span className="text-[#5A5245] dark:text-white/50">{essay.readTime}</span>
+                <span className="w-1.5 h-1.5 bg-[#1e1b42]/20 dark:bg-white/20 rounded-full" />
+                <span className="text-[#1e1b42]/70 dark:text-white/50">{essay.date}</span>
+                <span className="w-1.5 h-1.5 bg-[#1e1b42]/20 dark:bg-white/20 rounded-full" />
+                <span className="text-[#1e1b42]/70 dark:text-white/50">{essay.readTime}</span>
               </div>
 
               {/* Title */}
-              <h2 className="text-3xl md:text-4xl font-serif font-light leading-snug mb-4 text-[#111111] dark:text-white">
+              <h2 className="text-3xl md:text-4xl font-serif font-light leading-snug mb-4 text-[#1e1b42] dark:text-white">
                 {essay.title}
               </h2>
 
               {/* Subtitle */}
-              <p className="text-sm md:text-base font-serif italic text-[#222222] dark:text-white/70 leading-relaxed font-semibold dark:font-light mb-8 pl-4 border-l border-gold-primary/30">
+              <p className="text-sm md:text-base font-serif italic text-[#1e1b42] dark:text-white/70 leading-relaxed font-semibold dark:font-light mb-8 pl-4 border-l border-gold-primary/30">
                 {essay.subtitle}
               </p>
 
               {/* Content Paragraphs */}
-              <div className="space-y-6 text-sm md:text-base font-serif text-[#222222] dark:text-white/85 leading-relaxed font-semibold dark:font-light">
+              <div className="space-y-6 text-sm md:text-base font-serif text-[#1e1b42] dark:text-white/85 leading-relaxed font-semibold dark:font-light">
                 {essay.content.map((p, idx) => (
                   <p key={idx}>{p}</p>
                 ))}

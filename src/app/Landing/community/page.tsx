@@ -37,7 +37,7 @@ export default function CommunityPage() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#FAF9F6] dark:bg-[#0D0F12] text-[#111111] dark:text-white overflow-x-hidden selection:bg-gold-primary selection:text-[#0D0F12]">
+    <div className="flex flex-col min-h-screen bg-[#F2EBE2] dark:bg-[#101119] text-[#1e1b42] dark:text-white overflow-x-hidden selection:bg-gold-primary selection:text-[#1e1b42]">
       <Navbar />
 
       <main className="flex-1 pt-32 pb-16">
@@ -47,11 +47,11 @@ export default function CommunityPage() {
           <span className="text-[10px] font-sans tracking-[0.3em] text-gold-accent font-bold uppercase mb-4 block">
             SACRED GATHERINGS
           </span>
-          <h1 className="text-4xl md:text-6xl font-serif font-light text-[#111111] dark:text-white tracking-wide mb-6">
+          <h1 className="text-4xl md:text-6xl font-serif font-light text-[#1e1b42] dark:text-white tracking-wide mb-6">
             Shared Presence & Fellowship
           </h1>
           <div className="w-16 h-[1px] bg-gold-primary mx-auto my-6" />
-          <p className="text-base md:text-lg font-serif text-[#222222] dark:text-white/80 leading-relaxed font-semibold dark:font-light">
+          <p className="text-base md:text-lg font-serif text-[#1e1b42] dark:text-white/80 leading-relaxed font-semibold dark:font-light">
             We walk the path together. Satsang, or keeping spiritual company, provides the acceleration and strength needed to break through deep-seated ego habits.
           </p>
         </section>
@@ -70,29 +70,29 @@ export default function CommunityPage() {
               <span className="text-[10px] font-sans text-gold-dark dark:text-gold-accent tracking-widest font-bold dark:font-semibold uppercase mb-2 block">
                 {segment.tag}
               </span>
-              <h2 className="text-3xl font-serif font-light text-[#111111] dark:text-white mb-6">
+              <h2 className="text-3xl font-serif font-light text-[#1e1b42] dark:text-white mb-6">
                 {segment.title}
               </h2>
 
-              <p className="text-xs md:text-sm font-sans text-[#222222] dark:text-white/77 leading-relaxed font-semibold dark:font-light mb-8 max-w-3xl">
+              <p className="text-xs md:text-sm font-sans text-[#1e1b42] dark:text-white/77 leading-relaxed font-semibold dark:font-light mb-8 max-w-3xl">
                 {segment.description}
               </p>
 
               {/* Grid detail facts */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 border-t border-[#E5E0D2] dark:border-white/10 pt-8 mt-6 text-xs font-sans tracking-wide">
-                <div className="flex flex-col gap-4 text-[#222222]/60 dark:text-white/50">
+                <div className="flex flex-col gap-4 text-[#1e1b42]/60 dark:text-white/50">
                   <div>
-                    <span className="font-bold text-[#111111] dark:text-white uppercase text-[10px] tracking-wider block mb-1">SCHEDULE:</span>
+                    <span className="font-bold text-[#1e1b42] dark:text-white uppercase text-[10px] tracking-wider block mb-1">SCHEDULE:</span>
                     <span>{segment.schedule}</span>
                   </div>
                   <div>
-                    <span className="font-bold text-[#111111] dark:text-white uppercase text-[10px] tracking-wider block mb-1">FORMAT:</span>
+                    <span className="font-bold text-[#1e1b42] dark:text-white uppercase text-[10px] tracking-wider block mb-1">FORMAT:</span>
                     <span>{segment.format}</span>
                   </div>
                 </div>
                 
-                <div className="text-[#222222]/80 dark:text-white/60 leading-relaxed border-l-0 md:border-l border-[#E5E0D2] dark:border-white/10 pl-0 md:pl-8">
-                  <span className="font-bold text-[#111111] dark:text-white uppercase text-[10px] tracking-wider block mb-1">PRACTICE GUIDELINES:</span>
+                <div className="text-[#1e1b42]/80 dark:text-white/60 leading-relaxed border-l-0 md:border-l border-[#E5E0D2] dark:border-white/10 pl-0 md:pl-8">
+                  <span className="font-bold text-[#1e1b42] dark:text-white uppercase text-[10px] tracking-wider block mb-1">PRACTICE GUIDELINES:</span>
                   <p className="font-semibold dark:font-light">{segment.guidance}</p>
                 </div>
               </div>
@@ -106,7 +106,7 @@ export default function CommunityPage() {
                       contactSection.scrollIntoView({ behavior: "smooth" });
                     }
                   }}
-                  className="px-6 py-2.5 rounded-full border border-gold-primary/30 text-[#111111] dark:text-white hover:border-gold-primary hover:bg-gold-primary/10 text-xs font-sans tracking-[0.15em] uppercase font-bold dark:font-semibold transition-all duration-300 shadow-sm cursor-pointer"
+                  className="px-6 py-2.5 rounded-full border border-gold-primary/30 text-[#1e1b42] dark:text-white hover:border-gold-primary hover:bg-gold-primary/10 text-xs font-sans tracking-[0.15em] uppercase font-bold dark:font-semibold transition-all duration-300 shadow-sm cursor-pointer"
                 >
                   Register Interest
                 </button>

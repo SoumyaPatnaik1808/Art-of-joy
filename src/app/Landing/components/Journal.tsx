@@ -33,7 +33,7 @@ export default function Journal() {
   ];
 
   return (
-    <section id="journal" className="w-full bg-[#FAF9F6] dark:bg-[#0D0F12] text-[#111111] dark:text-white py-20 md:py-28 relative overflow-hidden border-t border-[#E5E0D2] dark:border-gold-primary/10">
+    <section id="journal" className="w-full bg-[#F2EBE2] dark:bg-[#101119] text-[#1e1b42] dark:text-white py-20 md:py-28 relative overflow-hidden border-t border-[#E5E0D2] dark:border-gold-primary/10">
       {/* Glow effect */}
       <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-gold-primary/3 blur-[120px] rounded-full pointer-events-none" />
 
@@ -45,13 +45,13 @@ export default function Journal() {
             <span className="text-[10px] font-sans tracking-[0.3em] text-gold-dark dark:text-gold-accent font-bold uppercase mb-3">
               CONTEMPLATIVE READS
             </span>
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#000000] dark:text-white tracking-wide">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#1e1b42] dark:text-white tracking-wide">
               The Devotional Journal
             </h2>
           </div>
           <Link
             href="/Landing/journal"
-            className="group mt-4 md:mt-0 flex items-center gap-2 text-xs font-sans tracking-[0.2em] text-gold-dark dark:text-gold-accent hover:text-[#000000] dark:hover:text-white transition-colors duration-300 uppercase self-start font-bold"
+            className="group mt-4 md:mt-0 flex items-center gap-2 text-xs font-sans tracking-[0.2em] text-gold-dark dark:text-gold-accent hover:text-[#1e1b42] dark:hover:text-white transition-colors duration-300 uppercase self-start font-bold"
           >
             View All Essays
             <svg 
@@ -78,19 +78,19 @@ export default function Journal() {
                 {/* Meta details */}
                 <div className="flex items-center gap-4 text-[10px] font-sans text-gold-dark dark:text-gold-accent font-bold tracking-wider mb-4">
                   <span>{article.category}</span>
-                  <span className="w-1.5 h-1.5 bg-[#1E1A15]/20 dark:bg-white/20 rounded-full" />
-                  <span className="text-[#5A5245] dark:text-white/50">{article.readTime}</span>
+                  <span className="w-1.5 h-1.5 bg-[#1e1b42]/20 dark:bg-white/20 rounded-full" />
+                  <span className="text-[#1e1b42]/70 dark:text-white/50">{article.readTime}</span>
                 </div>
 
                 {/* Title */}
-                <h3 className="text-2xl font-serif font-bold leading-snug mb-4 text-[#000000] dark:text-white group-hover:text-gold-dark dark:group-hover:text-gold-light transition-colors duration-300">
+                <h3 className="text-2xl font-serif font-bold leading-snug mb-4 text-[#1e1b42] dark:text-white group-hover:text-gold-dark dark:group-hover:text-gold-light transition-colors duration-300">
                   <Link href={article.link}>
                     {article.title}
                   </Link>
                 </h3>
 
                 {/* Subtitle */}
-                <p className="text-xs md:text-sm font-sans text-[#222222] dark:text-white/70 font-semibold dark:font-light leading-relaxed mb-8">
+                <p className="text-xs md:text-sm font-sans text-[#1e1b42] dark:text-white/70 font-semibold dark:font-light leading-relaxed mb-8">
                   {article.subtitle}
                 </p>
               </div>
@@ -98,12 +98,12 @@ export default function Journal() {
               {/* Author & Date */}
               <div className="flex items-center justify-between border-t border-[#E5E0D2] dark:border-white/10 pt-6 mt-4">
                 <div className="flex flex-col text-left">
-                  <span className="text-xs font-serif text-[#000000] dark:text-white font-bold">{article.author}</span>
-                  <span className="text-[10px] font-sans text-[#5A5245] dark:text-white/50 font-semibold tracking-wider mt-0.5">{article.date}</span>
+                  <span className="text-xs font-serif text-[#1e1b42] dark:text-white font-bold">{article.author}</span>
+                  <span className="text-[10px] font-sans text-[#1e1b42]/70 dark:text-white/50 font-semibold tracking-wider mt-0.5">{article.date}</span>
                 </div>
                 <Link
                   href={article.link}
-                  className="w-8 h-8 flex items-center justify-center rounded-full border border-[#1E1A15]/20 dark:border-white/20 group-hover:border-gold-dark dark:group-hover:border-gold-accent text-[#1E1A15] dark:text-white group-hover:text-gold-dark dark:group-hover:text-gold-accent transition-all duration-300"
+                  className="w-8 h-8 flex items-center justify-center rounded-full border border-[#1e1b42]/20 dark:border-white/20 group-hover:border-gold-dark dark:group-hover:border-gold-accent text-[#1e1b42] dark:text-white group-hover:text-gold-dark dark:group-hover:text-gold-accent transition-all duration-300"
                 >
                   <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 5v14M5 12h14" />

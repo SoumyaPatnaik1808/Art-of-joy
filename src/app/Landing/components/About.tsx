@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <section id="about" className="w-full bg-[#FAF9F6] dark:bg-[#0D0F12] text-[#111111] dark:text-white py-20 md:py-28 relative overflow-hidden border-t border-[#E5E0D2] dark:border-gold-primary/10">
+    <section id="about" className="w-full bg-[#F2EBE2] dark:bg-[#101119] text-[#1e1b42] dark:text-white py-20 md:py-28 relative overflow-hidden border-t border-[#E5E0D2] dark:border-gold-primary/10">
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
@@ -35,7 +35,7 @@ export default function About() {
             <span className="text-[10px] font-sans tracking-[0.3em] text-gold-dark dark:text-gold-accent font-bold uppercase mb-3">
               THE MISSION
             </span>
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#000000] dark:text-white tracking-wide leading-tight mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#1e1b42] dark:text-white tracking-wide leading-tight mb-6">
               The Path to Joyful Awakening
             </h2>
             
@@ -43,7 +43,7 @@ export default function About() {
               "Your true nature is not sorrow, agitation, or fear. You are the deep space of silence, clarity, and limitless joy."
             </p>
 
-            <div className="space-y-6 text-sm md:text-base font-serif text-[#222222] dark:text-white/70 leading-relaxed font-semibold dark:font-light">
+            <div className="space-y-6 text-sm md:text-base font-serif text-[#1e1b42] dark:text-white/70 leading-relaxed font-semibold dark:font-light">
               <p>
                 We believe that modern life, with all its speeds and stimulations, can often overshadow the natural radiance of the mind. By integrating the timeless philosophy of non-duality (Advaita), the active devotion of Bhakti, and the silent, structured paths of meditation, we guide you back to your true self.
               </p>
@@ -56,13 +56,13 @@ export default function About() {
             <div className="mt-8 flex items-center gap-6">
               <Link
                 href="/Landing/about"
-                className="px-8 py-3 rounded-full bg-[#1E1A15] dark:bg-gold-primary hover:bg-gold-dark dark:hover:bg-gold-accent text-white transition-all duration-300 text-xs font-sans tracking-[0.2em] uppercase shadow-lg font-bold"
+                className="px-8 py-3 rounded-full bg-[#1e1b42] dark:bg-gold-primary hover:bg-gold-dark dark:hover:bg-gold-accent text-white transition-all duration-300 text-xs font-sans tracking-[0.2em] uppercase shadow-lg font-bold"
               >
                 Read Our Story
               </Link>
               
-              <div className="flex flex-col text-left font-serif text-xs md:text-sm italic text-[#222222]/80 dark:text-white/60">
-                <span className="font-bold text-[#000000] dark:text-white">Art of Living Fellowship</span>
+              <div className="flex flex-col text-left font-serif text-xs md:text-sm italic text-[#1e1b42]/80 dark:text-white/60">
+                <span className="font-bold text-[#1e1b42] dark:text-white">Art of Living Fellowship</span>
                 <span>Est. 2026</span>
               </div>
             </div>

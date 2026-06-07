@@ -31,7 +31,7 @@ export default function Courses() {
   ];
 
   return (
-    <section id="courses" className="w-full bg-[#FAF9F6] dark:bg-[#0D0F12] text-[#111111] dark:text-white/90 py-20 md:py-28 relative overflow-hidden border-t border-[#E5E0D2] dark:border-gold-primary/10">
+    <section id="courses" className="w-full bg-[#F2EBE2] dark:bg-[#101119] text-[#1e1b42] dark:text-white/90 py-20 md:py-28 relative overflow-hidden border-t border-[#E5E0D2] dark:border-gold-primary/10">
       {/* Background radial glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gold-primary/5 blur-[120px] rounded-full pointer-events-none" />
 
@@ -42,7 +42,7 @@ export default function Courses() {
           <span className="text-[10px] font-sans tracking-[0.3em] text-gold-dark dark:text-gold-accent font-bold uppercase mb-3">
             WISDOM TRANSMISSION
           </span>
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#000000] dark:text-white tracking-wide">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#1e1b42] dark:text-white tracking-wide">
             Sacred Teachings & Courses
           </h2>
           
@@ -53,7 +53,7 @@ export default function Courses() {
             <div className="h-[0.5px] flex-1 bg-gradient-to-l from-transparent to-gold-primary/40" />
           </div>
           
-          <p className="text-sm md:text-base font-serif text-[#222222] dark:text-white/80 max-w-lg font-semibold dark:font-light leading-relaxed">
+          <p className="text-sm md:text-base font-serif text-[#1e1b42] dark:text-white/80 max-w-lg font-semibold dark:font-light leading-relaxed">
             Ancient scriptures translated into practical tools for self-inquiry, mental clarity, and spiritual awakening.
           </p>
         </div>
@@ -75,7 +75,7 @@ export default function Courses() {
                 />
                 {/* Image dark overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                <span className="absolute top-4 right-4 bg-[#EAE5DB] dark:bg-[#0D0F12]/80 border border-gold-primary/30 text-[#000000] dark:text-white text-[9px] font-sans font-bold tracking-[0.2em] uppercase px-3 py-1 rounded-full">
+                <span className="absolute top-4 right-4 bg-[#F2EBE2] dark:bg-[#101119]/80 border border-gold-primary/30 text-[#1e1b42] dark:text-white text-[9px] font-sans font-bold tracking-[0.2em] uppercase px-3 py-1 rounded-full">
                   {course.tag}
                 </span>
               </div>
@@ -85,17 +85,17 @@ export default function Courses() {
                 <span className="text-[10px] font-sans text-gold-dark dark:text-gold-accent font-bold tracking-widest uppercase mb-1">
                   {course.subtitle}
                 </span>
-                <h3 className="text-2xl font-serif font-bold text-[#000000] dark:text-white mb-4 group-hover:text-gold-dark dark:group-hover:text-gold-light transition-colors duration-300">
+                <h3 className="text-2xl font-serif font-bold text-[#1e1b42] dark:text-white mb-4 group-hover:text-gold-dark dark:group-hover:text-gold-light transition-colors duration-300">
                   {course.title}
                 </h3>
-                <p className="text-xs md:text-sm font-sans text-[#222222] dark:text-white/70 font-semibold dark:font-light leading-relaxed mb-8 flex-1">
+                <p className="text-xs md:text-sm font-sans text-[#1e1b42] dark:text-white/70 font-semibold dark:font-light leading-relaxed mb-8 flex-1">
                   {course.description}
                 </p>
                 
                 {/* Learn More link */}
                 <Link 
                   href={course.link} 
-                  className="flex items-center gap-2 text-[10px] font-sans text-[#111111] dark:text-white/95 tracking-[0.2em] font-bold group-hover:text-gold-dark dark:group-hover:text-gold-light transition-colors duration-300 uppercase mt-auto self-start"
+                  className="flex items-center gap-2 text-[10px] font-sans text-[#1e1b42] dark:text-white/95 tracking-[0.2em] font-bold group-hover:text-gold-dark dark:group-hover:text-gold-light transition-colors duration-300 uppercase mt-auto self-start"
                 >
                   Explore Teachings
                   <svg 

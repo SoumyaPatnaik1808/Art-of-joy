@@ -64,8 +64,8 @@ export default function Navbar({ onScrollTo }: NavbarProps) {
       <nav 
         className={`mx-auto rounded-full py-2.5 px-6 flex items-center justify-between transition-all duration-500 max-w-6xl backdrop-blur-md border ${
           isScrolled 
-            ? "scale-[0.98] bg-[#faf9f6]/90 dark:bg-[#0d0f12]/90 border-gold-primary/30 shadow-xl" 
-            : "bg-[#faf9f6]/65 dark:bg-[#0d0f12]/50 border-gold-primary/15 shadow-[0_8px_32px_0_rgba(130,100,40,0.06)]"
+            ? "scale-[0.98] bg-[#F2EBE2]/90 dark:bg-[#101119]/90 border-gold-primary/30 shadow-xl" 
+            : "bg-[#F2EBE2]/65 dark:bg-[#101119]/50 border-gold-primary/15 shadow-[0_8px_32px_0_rgba(130,100,40,0.06)]"
         }`}
       >
         {/* Brand / Logo */}
@@ -84,7 +84,7 @@ export default function Navbar({ onScrollTo }: NavbarProps) {
             </svg>
           </div>
           <div className="flex flex-col text-left">
-            <span className="text-[#1e1a15] dark:text-white font-sans text-xs md:text-sm font-light tracking-[0.25em] leading-tight">
+            <span className="text-[#1e1b42] dark:text-white font-sans text-xs md:text-sm font-light tracking-[0.25em] leading-tight">
               ART OF LIVING
             </span>
             <span className="text-[7px] md:text-[8px] text-gold-dark dark:text-gold-light font-sans font-light tracking-[0.2em] leading-tight">
@@ -100,7 +100,7 @@ export default function Navbar({ onScrollTo }: NavbarProps) {
               key={item.id}
               href={item.href}
               onClick={handleNavClick}
-              className="text-[#1e1a15]/80 hover:text-gold-dark dark:text-white/80 dark:hover:text-gold-light text-xs font-sans tracking-[0.2em] transition-colors duration-300 relative py-1 group"
+              className="text-[#1e1b42]/80 hover:text-gold-dark dark:text-white/80 dark:hover:text-gold-light text-xs font-sans tracking-[0.2em] transition-colors duration-300 relative py-1 group"
             >
               {item.label}
               <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-gold-primary group-hover:w-full transition-all duration-300" />
@@ -112,11 +112,11 @@ export default function Navbar({ onScrollTo }: NavbarProps) {
         <div className="hidden lg:flex items-center gap-4">
           <button
             onClick={toggleTheme}
-            className="w-9 h-9 flex items-center justify-center rounded-full border border-gold-primary/30 text-[#1e1a15] dark:text-white hover:border-gold-primary hover:bg-gold-primary/10 transition-all duration-300 bg-white/20 dark:bg-[#12161A]/80 shadow-[0_0_15px_rgba(212,175,55,0.02)] hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] cursor-pointer"
+            className="w-9 h-9 flex items-center justify-center rounded-full border border-gold-primary/30 text-[#1e1b42] dark:text-white hover:border-gold-primary hover:bg-gold-primary/10 transition-all duration-300 bg-white/20 dark:bg-[#12161A]/80 shadow-[0_0_15px_rgba(212,175,55,0.02)] hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] cursor-pointer"
             aria-label="Toggle Theme"
           >
             {theme === "light" ? (
-              <Moon size={16} className="text-[#1e1a15] hover:rotate-12 transition-transform duration-300" />
+              <Moon size={16} className="text-[#1e1b42] hover:rotate-12 transition-transform duration-300" />
             ) : (
               <Sun size={16} className="text-gold-light hover:rotate-45 transition-transform duration-500" />
             )}
@@ -124,7 +124,7 @@ export default function Navbar({ onScrollTo }: NavbarProps) {
           <Link
             href="/Landing/contact"
             onClick={handleNavClick}
-            className="px-6 py-2 rounded-full border border-[#1e1a15]/20 dark:border-gold-primary/30 text-[#1e1a15] dark:text-white hover:border-gold-primary hover:bg-gold-primary/10 transition-all duration-300 text-xs font-sans tracking-[0.15em] bg-white/20 dark:bg-[#12161A]/80 shadow-[0_0_15px_rgba(212,175,55,0.02)] hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] animate-pulse"
+            className="px-6 py-2 rounded-full border border-[#1e1b42]/20 dark:border-gold-primary/30 text-[#1e1b42] dark:text-white hover:border-gold-primary hover:bg-gold-primary/10 transition-all duration-300 text-xs font-sans tracking-[0.15em] bg-white/20 dark:bg-[#12161A]/80 shadow-[0_0_15px_rgba(212,175,55,0.02)] hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] animate-pulse"
           >
             BEGIN THE JOURNEY
           </Link>
@@ -134,18 +134,18 @@ export default function Navbar({ onScrollTo }: NavbarProps) {
         <div className="flex lg:hidden items-center gap-3">
           <button
             onClick={toggleTheme}
-            className="w-8 h-8 flex items-center justify-center rounded-full border border-gold-primary/30 text-[#1e1a15] dark:text-white hover:border-gold-primary bg-white/20 dark:bg-[#12161A]/80 cursor-pointer"
+            className="w-8 h-8 flex items-center justify-center rounded-full border border-gold-primary/30 text-[#1e1b42] dark:text-white hover:border-gold-primary bg-white/20 dark:bg-[#12161A]/80 cursor-pointer"
             aria-label="Toggle Theme"
           >
             {theme === "light" ? (
-              <Moon size={14} className="text-[#1e1a15]" />
+              <Moon size={14} className="text-[#1e1b42]" />
             ) : (
               <Sun size={14} className="text-gold-light" />
             )}
           </button>
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="w-8 h-8 flex items-center justify-center rounded-full text-[#1e1a15] dark:text-white/90 hover:text-[#1e1a15]/80 dark:hover:text-white"
+            className="w-8 h-8 flex items-center justify-center rounded-full text-[#1e1b42] dark:text-white/90 hover:text-[#1e1b42]/80 dark:hover:text-white"
             aria-label="Open Menu"
           >
             {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
@@ -155,14 +155,14 @@ export default function Navbar({ onScrollTo }: NavbarProps) {
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden absolute top-20 left-4 right-4 p-6 rounded-3xl bg-[#faf9f6]/95 dark:bg-[#0d0f12]/95 backdrop-blur-2xl border border-gold-primary/20 shadow-2xl animate-fade-in">
+        <div className="lg:hidden absolute top-20 left-4 right-4 p-6 rounded-3xl bg-[#F2EBE2]/95 dark:bg-[#101119]/95 backdrop-blur-2xl border border-gold-primary/20 shadow-2xl animate-fade-in">
           <div className="flex flex-col gap-6 items-center text-center">
             {navItems.map((item) => (
               <Link
                 key={item.id}
                 href={item.href}
                 onClick={handleNavClick}
-                className="text-[#1e1a15]/80 hover:text-gold-dark dark:text-white/80 dark:hover:text-gold-light text-sm font-sans tracking-[0.2em] py-2 w-full transition-colors duration-300"
+                className="text-[#1e1b42]/80 hover:text-gold-dark dark:text-white/80 dark:hover:text-gold-light text-sm font-sans tracking-[0.2em] py-2 w-full transition-colors duration-300"
               >
                 {item.label}
               </Link>
@@ -171,7 +171,7 @@ export default function Navbar({ onScrollTo }: NavbarProps) {
             <Link
               href="/Landing/contact"
               onClick={handleNavClick}
-              className="w-full py-3 rounded-full border border-gold-primary/30 text-[#1e1a15] bg-gold-primary/5 dark:text-white dark:bg-gold-primary/10 text-xs font-sans tracking-[0.15em] hover:bg-gold-primary/25 transition-all duration-300"
+              className="w-full py-3 rounded-full border border-gold-primary/30 text-[#1e1b42] bg-gold-primary/5 dark:text-white dark:bg-gold-primary/10 text-xs font-sans tracking-[0.15em] hover:bg-gold-primary/25 transition-all duration-300"
             >
               BEGIN THE JOURNEY
             </Link>

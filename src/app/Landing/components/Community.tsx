@@ -30,7 +30,7 @@ export default function Community() {
   ];
 
   return (
-    <section id="community" className="w-full bg-[#FAF9F6] dark:bg-[#0D0F12] text-[#111111] dark:text-white py-20 md:py-28 relative overflow-hidden border-t border-[#E5E0D2] dark:border-gold-primary/10">
+    <section id="community" className="w-full bg-[#F2EBE2] dark:bg-[#101119] text-[#1e1b42] dark:text-white py-20 md:py-28 relative overflow-hidden border-t border-[#E5E0D2] dark:border-gold-primary/10">
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
         
         {/* Header */}
@@ -38,7 +38,7 @@ export default function Community() {
           <span className="text-[10px] font-sans tracking-[0.3em] text-gold-dark dark:text-gold-accent font-bold uppercase mb-3">
             COMMUNITY GATHERINGS
           </span>
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#000000] dark:text-white tracking-wide">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#1e1b42] dark:text-white tracking-wide">
             Shared Presence & Satsang
           </h2>
           
@@ -48,7 +48,7 @@ export default function Community() {
             <div className="h-[0.5px] flex-1 bg-gradient-to-l from-transparent to-gold-primary/40" />
           </div>
 
-          <p className="text-sm md:text-base font-serif text-[#222222] dark:text-white/80 max-w-lg font-semibold dark:font-light leading-relaxed">
+          <p className="text-sm md:text-base font-serif text-[#1e1b42] dark:text-white/80 max-w-lg font-semibold dark:font-light leading-relaxed">
             Spiritual growth is accelerated in the presence of like-minded seekers. Explore our weekly gatherings and immersive retreats.
           </p>
         </div>
@@ -58,26 +58,26 @@ export default function Community() {
           {events.map((event, idx) => (
             <div 
               key={idx} 
-              className="bg-[#EAE5DB]/40 dark:bg-white/5 p-8 md:p-10 rounded-[2rem] border border-gold-primary/10 dark:border-white/10 flex flex-col justify-between h-full transition-all duration-300 hover:shadow-xl hover:border-gold-primary/20 hover:scale-[1.02]"
+              className="bg-[#1e1b42]/5 dark:bg-white/5 p-8 md:p-10 rounded-[2rem] border border-gold-primary/10 dark:border-white/10 flex flex-col justify-between h-full transition-all duration-300 hover:shadow-xl hover:border-gold-primary/20 hover:scale-[1.02]"
             >
               <div>
                 <span className="text-[9px] font-sans text-gold-dark dark:text-gold-accent tracking-wider font-bold uppercase">
                   {event.format}
                 </span>
-                <h3 className="text-2xl font-serif font-bold text-[#000000] dark:text-white mt-2 mb-4">
+                <h3 className="text-2xl font-serif font-bold text-[#1e1b42] dark:text-white mt-2 mb-4">
                   {event.title}
                 </h3>
-                <div className="text-[11px] font-sans text-[#111111] dark:text-white/90 font-bold tracking-wide mb-6">
+                <div className="text-[11px] font-sans text-[#1e1b42] dark:text-white/90 font-bold tracking-wide mb-6">
                   {event.schedule}
                 </div>
-                <p className="text-xs md:text-sm font-sans text-[#222222] dark:text-white/70 font-semibold dark:font-light leading-relaxed mb-8">
+                <p className="text-xs md:text-sm font-sans text-[#1e1b42] dark:text-white/70 font-semibold dark:font-light leading-relaxed mb-8">
                   {event.description}
                 </p>
               </div>
 
               <Link
                 href={event.link}
-                className="w-full py-3 text-center rounded-full border border-[#1E1A15]/40 dark:border-white/20 text-[#1E1A15] dark:text-white hover:bg-[#1E1A15] dark:hover:bg-gold-primary hover:text-white text-xs font-sans tracking-[0.2em] uppercase transition-all duration-300 font-bold shadow-sm"
+                className="w-full py-3 text-center rounded-full border border-[#1e1b42]/40 dark:border-white/20 text-[#1e1b42] dark:text-white hover:bg-[#1e1b42] dark:hover:bg-gold-primary hover:text-white text-xs font-sans tracking-[0.2em] uppercase transition-all duration-300 font-bold shadow-sm"
               >
                 {event.actionLabel}
               </Link>
@@ -87,12 +87,12 @@ export default function Community() {
 
         {/* Global Satsang CTA */}
         <div className="mt-16 md:mt-24 text-center border-t border-[#E5E0D2] dark:border-white/10 pt-12">
-          <p className="font-serif text-sm italic text-[#222222] dark:text-white/70 font-semibold dark:font-light mb-4">
+          <p className="font-serif text-sm italic text-[#1e1b42] dark:text-white/70 font-semibold dark:font-light mb-4">
             Looking for something daily? Join our online meditation space, open 24/7.
           </p>
           <Link
             href="/Landing/community#daily-space"
-            className="text-xs font-sans tracking-[0.25em] text-gold-dark dark:text-gold-accent font-bold hover:text-[#000000] dark:hover:text-white transition-colors duration-300 uppercase inline-flex items-center gap-2"
+            className="text-xs font-sans tracking-[0.25em] text-gold-dark dark:text-gold-accent font-bold hover:text-[#1e1b42] dark:hover:text-white transition-colors duration-300 uppercase inline-flex items-center gap-2"
           >
             ENTER THE ONLINE SATSANG HALL
             <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2">
