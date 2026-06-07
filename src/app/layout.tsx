@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Art of Living | Awaken to Your True Nature",
+  title: "Art of Joy | Awaken to Your True Nature",
   description: "Journey through the wisdom of the Upanishads, Bhagavad Gita, meditation, and Bhakti traditions to awaken clarity, love, and inner freedom.",
 };
 
