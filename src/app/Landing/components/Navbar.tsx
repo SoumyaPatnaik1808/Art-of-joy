@@ -85,7 +85,7 @@ export default function Navbar({ onScrollTo }: NavbarProps) {
           </div>
           <div className="flex flex-col text-left">
             <span className="text-[#1e1b42] dark:text-white font-sans text-xs md:text-sm font-light tracking-[0.25em] leading-tight">
-              ART OF LIVING
+              ART OF JOY
             </span>
             <span className="text-[7px] md:text-[8px] text-gold-dark dark:text-gold-light font-sans font-light tracking-[0.2em] leading-tight">
               AWAKEN TO YOUR TRUE NATURE
