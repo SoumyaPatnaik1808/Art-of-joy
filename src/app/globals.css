@@ -1,26 +1,93 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-geist-sans), "Inter", system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+  
+  --color-gold-light: #b59241;
+  --color-gold-primary: #8f6e23;
+  --color-gold-dark: #6e5215;
+  --color-gold-accent: #a37d2a;
+  
+  --color-cream-bg: #f5f3ef;
+  --color-cream-dark: #eadfcd;
+  --color-dark-bg: #0d0f12;
+  --color-dark-surface: #12161a;
+  
+  --animate-fade-in-up: fade-in-up 0.8s ease-out forwards;
+  --animate-fade-in: fade-in 1.2s ease-out forwards;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+
+:root {
+  --background: #faf9f6;
+  --foreground: #111111;
+  --font-geist-sans: "Inter", sans-serif;
+}
+
+.dark {
+  --background: #0d0f12;
+  --foreground: #f5f3ef;
+}
+
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Glassmorphism custom utilities */
+.glass-nav {
+  background: rgba(250, 249, 246, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.22);
+}
+
+.dark .glass-nav {
+  background: rgba(13, 15, 18, 0.55);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(212, 175, 55, 0.18);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+.dark .glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+
+
