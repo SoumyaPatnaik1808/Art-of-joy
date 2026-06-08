@@ -9,30 +9,30 @@ export default function CommunityPage() {
   const segments = [
     {
       id: "meditation-circle",
-      title: "Meditation Circles",
-      tag: "Weekly Collective Silence",
-      description: "Our weekly meditation circles are the heartbeat of the fellowship. We gather to anchor ourselves in the silent presence that underlies the noise of our daily thoughts. Sessions are open to all seekers, from beginners to experienced practitioners.",
-      schedule: "Wednesdays, 7:00 - 8:15 PM EST",
-      format: "Hybrid: Online via Zoom & In-Person at the Catskill Sanctuary",
-      guidance: "Includes 15 minutes of guided pranayama (breath control), 40 minutes of silent meditation (Dhyana), and 20 minutes of shared readings and community inquiry.",
+      title: "Event Title One",
+      tag: "Tag Text One",
+      description: "Event description placeholder text goes here. This explains the detailed background, activities, and goals of the first event type.",
+      schedule: "Schedule Time One",
+      format: "Format Name One",
+      guidance: "Practice guidelines placeholder text goes here. This describes the specific recommendations and format instructions.",
     },
     {
       id: "satsang",
-      title: "Spiritual Satsang & Chanting",
-      tag: "Monthly Gathering of Hearts",
-      description: "Satsang literally means 'association with truth'. In these monthly gatherings, we elevate our emotional energies into devotion. Chanting sacred mantras (Kirtan) is a fast and joyful way to quieten the ego's analytical mind and experience unified love.",
-      schedule: "First Sunday of every month, 10:00 AM - 12:30 PM EST",
-      format: "In-Person (followed by shared organic vegetarian lunch)",
-      guidance: "Begins with traditional chants, followed by scripture reading, questions and answers, and concludes with a community meal.",
+      title: "Event Title Two",
+      tag: "Tag Text Two",
+      description: "Event description placeholder text goes here. This explains the detailed background, activities, and goals of the second event type.",
+      schedule: "Schedule Time Two",
+      format: "Format Name Two",
+      guidance: "Practice guidelines placeholder text goes here. This describes the specific recommendations and format instructions.",
     },
     {
       id: "retreat",
-      title: "Silent Nature Retreats",
-      tag: "Seasonal Immersive Contemplation",
-      description: "Four times a year, during the equinoxes and solstices, we host residential retreats at our mountain ashram. Participants observe absolute silence, stepping out of their daily roles and routines to sit face-to-face with their true identity.",
-      schedule: "Next Retreat: Autumn Equinox, September 18-22, 2026",
-      format: "Residential (requires pre-application)",
-      guidance: "Features daily yoga, intensive silent sitting, individual guidance from swamis, organic farm-to-table vegetarian meals, and forest walking meditations.",
+      title: "Event Title Three",
+      tag: "Tag Text Three",
+      description: "Event description placeholder text goes here. This explains the detailed background, activities, and goals of the third event type.",
+      schedule: "Schedule Time Three",
+      format: "Format Name Three",
+      guidance: "Practice guidelines placeholder text goes here. This describes the specific recommendations and format instructions.",
     },
   ];
 
@@ -45,14 +45,14 @@ export default function CommunityPage() {
         {/* Header */}
         <section className="max-w-4xl mx-auto px-6 text-center mb-20 animate-fade-in-up">
           <span className="text-[10px] font-sans tracking-[0.3em] text-gold-accent font-bold uppercase mb-4 block">
-            SACRED GATHERINGS
+            SECTION SUBTITLE
           </span>
           <h1 className="text-4xl md:text-6xl font-serif font-light text-[#1e1b42] dark:text-white tracking-wide mb-6">
-            Shared Presence & Fellowship
+            Section Heading Text
           </h1>
           <div className="w-16 h-[1px] bg-gold-primary mx-auto my-6" />
           <p className="text-base md:text-lg font-serif text-[#1e1b42] dark:text-white/80 leading-relaxed font-semibold dark:font-light">
-            We walk the path together. Satsang, or keeping spiritual company, provides the acceleration and strength needed to break through deep-seated ego habits.
+            Section description paragraph text goes here. This explains the layout and context.
           </p>
         </section>
 

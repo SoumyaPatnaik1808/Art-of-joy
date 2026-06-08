@@ -3,8 +3,8 @@ import React from "react";
 export default function Pillars() {
   const pillarsList = [
     {
-      title: "ANCIENT WISDOM",
-      description: "Timeless teachings from the Upanishads and Bhagavad Gita.",
+      title: "PILLAR TITLE ONE",
+      description: "Description for pillar one goes here. This explains the core focus.",
       // Custom SVG: Compass / Crosshair target
       icon: (
         <svg viewBox="0 0 100 100" className="w-12 h-12 text-gold-dark/80 group-hover:text-gold-primary transition-colors duration-300">
@@ -18,8 +18,8 @@ export default function Pillars() {
       ),
     },
     {
-      title: "INNER TRANSFORMATION",
-      description: "Meditation, self-inquiry and awareness to know your true Self.",
+      title: "PILLAR TITLE TWO",
+      description: "Description for pillar two goes here. This explains the core focus.",
       // Custom SVG: Concentric circles with dot
       icon: (
         <svg viewBox="0 0 100 100" className="w-12 h-12 text-gold-dark/80 group-hover:text-gold-primary transition-colors duration-300">
@@ -31,8 +31,8 @@ export default function Pillars() {
       ),
     },
     {
-      title: "DEVOTION & LOVE",
-      description: "The path of Bhakti to open the heart and dissolve the ego.",
+      title: "PILLAR TITLE THREE",
+      description: "Description for pillar three goes here. This explains the core focus.",
       // Custom SVG: Hollow heart
       icon: (
         <svg viewBox="0 0 100 100" className="w-12 h-12 text-gold-dark/80 group-hover:text-gold-primary transition-colors duration-300">
@@ -48,8 +48,8 @@ export default function Pillars() {
       ),
     },
     {
-      title: "LIVING AWARENESS",
-      description: "Awaken clarity, purpose and inner freedom in every moment.",
+      title: "PILLAR TITLE FOUR",
+      description: "Description for pillar four goes here. This explains the core focus.",
       // Custom SVG: Sun with rays
       icon: (
         <svg viewBox="0 0 100 100" className="w-12 h-12 text-gold-dark/80 group-hover:text-gold-primary transition-colors duration-300">

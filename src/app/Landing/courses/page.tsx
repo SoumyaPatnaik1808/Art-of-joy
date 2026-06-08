@@ -8,52 +8,52 @@ import Image from "next/image";
 export default function CoursesPage() {
   const coursesDetail = [
     {
-      id: "upanishads",
-      title: "The Upanishads: Philosophy of Non-Duality",
-      subtitle: "Study of Mandukya, Katha, and Isha Upanishads",
+      id: "course-1",
+      title: "Course-1",
+      subtitle: "Subtitle for Course-1",
       image: "/upanishad.png",
-      tag: "12-Week Immersion",
-      overview: "The Upanishads represent the peak of ancient Indian philosophical thought, focusing on the nature of reality and the self. In this course, we examine three core Upanishads line-by-line, exploring non-dual realization (Advaita) in a practical, experiential way.",
+      tag: "tag",
+      overview: "Description for the course goes here. This is a brief overview of what the course will cover and what students can expect to learn.",
       modules: [
-        "Introduction to Vedanta and the four Vedas",
-        "The Katha Upanishad: Dialogue with Death and the nature of the Soul",
-        "The Isha Upanishad: Seeing the Divine in everything",
-        "The Mandukya Upanishad: The four states of consciousness (Om)",
+        "module-1",
+        "module-2",
+        "module-3",
+        "module-4",
       ],
-      instructor: "Swami Priyananda",
-      schedule: "Tuesdays, 7:30 - 9:00 PM EST",
+      instructor: "Instructor Name",
+      schedule: "Day, Time",
     },
     {
-      id: "gita",
-      title: "The Bhagavad Gita: Science of Self-Realization",
-      subtitle: "Integrating Karma, Jnana, and Bhakti Yoga in Daily Life",
+      id: "course-2",
+      title: "Course-2",
+      subtitle: "Subtitle for Course-2",
       image: "/bhagvat-gita.png",
-      tag: "16-Week Foundation",
-      overview: "Set on the battlefield of Kurukshetra, the Bhagavad Gita is a metaphor for the inner battles we face every day. This course decodes Sri Krishna's teachings on selfless action, mental equilibrium, and absolute surrender, giving you a roadmap for peaceful living in a chaotic world.",
+      tag: "tag",
+      overview: "Description for the course goes here. This is a brief overview of what the course will cover and what students can expect to learn.",
       modules: [
-        "Chapter 1 & 2: The crisis of Arjuna and the immortality of the Self",
-        "Karma Yoga: The secret of work without binding attachment",
-        "Jnana Yoga: Discerning the real from the unreal",
-        "Bhakti Yoga & Meditation: Cultivating focus and divine connection",
+        "module-1",
+        "module-2",
+        "module-3",
+        "module-4",
       ],
-      instructor: "Acharya Chinmayan",
-      schedule: "Thursdays, 8:00 - 9:30 PM EST",
+      instructor: "Instructor Name",
+      schedule: "Day, Time",
     },
     {
-      id: "bhakti",
-      title: "Bhakti Traditions: The Path of Devotion & Love",
-      subtitle: "Satsang, Kirtan, and Heart-Centered Wisdom",
+      id: "course-3",
+      title: "Course-3",
+      subtitle: "Subtitle for Course-3",
       image: "/bhakti.png",
-      tag: "8-Week Journey",
-      overview: "Bhakti Yoga is the path of refining our emotional energy into supreme love. This course studies the lives of great Bhakti saints (Rumi, Mirabai, Kabir, Chaitanya) and teaches devotional practices, including mantra chanting, storytelling, and sacred art, to open the spiritual heart.",
+      tag: "Your tag",
+      overview: "Description for the course goes here. This is a brief overview of what the course will cover and what students can expect to learn.",
       modules: [
-        "The psychology of devotion: From ego-love to divine-love",
-        "Nine forms of Bhakti (Nava Vidha Bhakti)",
-        "The lives and songs of the mystic poets",
-        "Kirtan and the power of sacred sound vibration",
+        "Module-1",
+        "Module-2",
+        "Module-3",
+        "Module-4",
       ],
-      instructor: "Ma Sharada & Kirtan Collective",
-      schedule: "Saturdays, 10:30 AM - 12:30 PM EST",
+      instructor: "Instructor Name",
+      schedule: "Day, Time",
     },
   ];
 
@@ -66,14 +66,14 @@ export default function CoursesPage() {
         {/* Intro */}
         <section className="max-w-4xl mx-auto px-6 text-center mb-20 animate-fade-in-up">
           <span className="text-[10px] font-sans tracking-[0.3em] text-gold-accent font-bold uppercase mb-4 block">
-            WISDOM TRANSMISSION
+            SECTION SUBTITLE
           </span>
           <h1 className="text-4xl md:text-6xl font-serif font-light text-[#1e1b42] dark:text-white tracking-wide mb-6">
-            Scripture & Study Programs
+            Section Heading Text
           </h1>
           <div className="w-16 h-[1px] bg-gold-primary mx-auto my-6" />
           <p className="text-base md:text-lg font-serif text-[#1e1b42] dark:text-white/80 leading-relaxed font-semibold dark:font-light">
-            Our structured courses combine intellectual study with deep experiential practice. Browse our active curriculums and find your study path.
+            Section description paragraph text goes here. This explains the courses program below.
           </p>
         </section>
 

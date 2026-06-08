@@ -4,31 +4,31 @@ import Link from "next/link";
 export default function Journal() {
   const articles = [
     {
-      title: "The Art of Meditation: Entering the Silence Within",
-      subtitle: "Meditation is not about forcing the mind to be quiet; it is about discovering the silence that is already present.",
-      date: "June 1, 2026",
-      readTime: "6 min read",
-      author: "Swami Priyananda",
-      category: "MEDITATION",
-      link: "/Landing/journal#silence",
+      title: "Article Title One",
+      subtitle: "Article Subtitle One. Description for article one goes here.",
+      date: "Date",
+      readTime: "Duration",
+      author: "Author Name",
+      category: "CATEGORY",
+      link: "/Landing/journal#article-1",
     },
     {
-      title: "Bhakti: The Path of Pure Heart-Centered Surrender",
-      subtitle: "How devotional practices, chanting, and opening the heart can dissolve the ego and connect us to universal consciousness.",
-      date: "May 24, 2026",
-      readTime: "8 min read",
-      author: "Ma Sharada",
-      category: "BHAKTI",
-      link: "/Landing/journal#bhakti-surrender",
+      title: "Article Title Two",
+      subtitle: "Article Subtitle Two. Description for article two goes here.",
+      date: "Date",
+      readTime: "Duration",
+      author: "Author Name",
+      category: "CATEGORY",
+      link: "/Landing/journal#article-2",
     },
     {
-      title: "Advaita in Daily Life: Finding the Silent Witness",
-      subtitle: "Discover how non-dual wisdom can be practiced in the middle of office chaos, busy cities, and normal relationships.",
-      date: "May 15, 2026",
-      readTime: "10 min read",
-      author: "Acharya Chinmayan",
-      category: "PHILOSOPHY",
-      link: "/Landing/journal#advaita-daily",
+      title: "Article Title Three",
+      subtitle: "Article Subtitle Three. Description for article three goes here.",
+      date: "Date",
+      readTime: "Duration",
+      author: "Author Name",
+      category: "CATEGORY",
+      link: "/Landing/journal#article-3",
     },
   ];
 
@@ -43,17 +43,17 @@ export default function Journal() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 border-b border-[#E5E0D2] dark:border-white/10 pb-8">
           <div className="flex flex-col text-left">
             <span className="text-[10px] font-sans tracking-[0.3em] text-gold-dark dark:text-gold-accent font-bold uppercase mb-3">
-              CONTEMPLATIVE READS
+              SECTION SUBTITLE
             </span>
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#1e1b42] dark:text-white tracking-wide">
-              The Devotional Journal
+              Section Heading Text
             </h2>
           </div>
           <Link
             href="/Landing/journal"
             className="group mt-4 md:mt-0 flex items-center gap-2 text-xs font-sans tracking-[0.2em] text-gold-dark dark:text-gold-accent hover:text-[#1e1b42] dark:hover:text-white transition-colors duration-300 uppercase self-start font-bold"
           >
-            View All Essays
+            Link Text
             <svg 
               className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300"
               fill="none" 

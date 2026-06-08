@@ -14,14 +14,14 @@ export default function AboutPage() {
         {/* Intro Section */}
         <section className="max-w-4xl mx-auto px-6 text-center mb-20 animate-fade-in-up">
           <span className="text-[10px] font-sans tracking-[0.3em] text-gold-accent font-bold uppercase mb-4 block">
-            ABOUT THE FELLOWSHIP
+            SECTION SUBTITLE
           </span>
           <h1 className="text-4xl md:text-6xl font-serif font-light text-[#1e1b42] dark:text-white tracking-wide mb-6">
-            Awakening to Your True Nature
+            Section Heading Text
           </h1>
           <div className="w-16 h-[1px] bg-gold-primary mx-auto my-6" />
           <p className="text-base md:text-lg font-serif text-[#1e1b42] dark:text-white/80 leading-relaxed font-semibold dark:font-light">
-            Founded with a vision to integrate ancient Himalayan wisdom into the fabric of modern life, the Art of Living Fellowship is a sanctuary for seekers of clarity, love, and inner freedom.
+            Section description paragraph text goes here. This introduces the page content.
           </p>
         </section>
 
@@ -31,21 +31,21 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-serif font-light text-gold-dark dark:text-gold-accent mb-6">
-                  Our Spiritual Philosophy
+                  Section Heading Text
                 </h2>
                 <div className="space-y-6 text-sm font-sans text-[#1e1b42] dark:text-white/70 leading-relaxed font-semibold dark:font-light">
                   <p>
-                    We teach the non-dual truth of **Advaita Vedanta**—that there is only one source of consciousness, and your true self (Atman) is identical to it. Sorrow and distress arise from the illusion of separation.
+                    Paragraph text placeholder for the first block. This describes the core concept details and **Bold Text Highlight** features.
                   </p>
                   <p>
-                    Rather than an intellectual philosophy, we present this as a lived reality. Through **Meditation (Dhyana)**, we stabilize the mind to witness this truth; through **Devotion (Bhakti)**, we melt the emotional boundaries of the ego; and through **Action (Karma)**, we express this unity in selfless service to the world.
+                    Paragraph text placeholder for the second block. This explains other **Bold Text Highlight** details, **Bold Text Highlight** elements, and **Bold Text Highlight** targets.
                   </p>
                 </div>
               </div>
               <div className="relative aspect-video md:aspect-[4/3] rounded-3xl overflow-hidden border border-gold-primary/20">
                 <Image
                   src="/hero-img-2.png"
-                  alt="Silent Meditation"
+                  alt="Placeholder Image"
                   fill
                   className="object-cover"
                 />
@@ -57,39 +57,39 @@ export default function AboutPage() {
         {/* Detailed Pillars of Practice */}
         <section className="max-w-5xl mx-auto px-6 py-20">
           <h2 className="text-3xl font-serif font-light text-center text-[#1e1b42] dark:text-white mb-16">
-            The Three Streams of the Path
+            Section Heading Text
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Stream 1 */}
             <div className="glass-card p-8 rounded-3xl text-left border border-[#E5E0D2] dark:border-white/5 hover:border-gold-primary/25 transition-all duration-300">
               <span className="text-[10px] font-sans text-gold-dark dark:text-gold-accent tracking-widest font-bold dark:font-semibold uppercase mb-4 block">
-                01. DHYANA YOGA
+                CARD TAG ONE
               </span>
-              <h3 className="text-xl font-serif font-light mb-4 text-[#1e1b42] dark:text-white">Silent Meditation</h3>
+              <h3 className="text-xl font-serif font-light mb-4 text-[#1e1b42] dark:text-white">Card Title One</h3>
               <p className="text-xs font-sans text-[#1e1b42] dark:text-white/60 leading-relaxed font-semibold dark:font-light">
-                The practice of sitting in stillness and drawing the attention inward. By observing the thoughts without judgment, the mind settles into its source, revealing the underlying peace of pure awareness.
+                Card description text placeholder goes here. This explains the specific focus and context of the card details.
               </p>
             </div>
 
             {/* Stream 2 */}
             <div className="glass-card p-8 rounded-3xl text-left border border-[#E5E0D2] dark:border-white/5 hover:border-gold-primary/25 transition-all duration-300">
               <span className="text-[10px] font-sans text-gold-dark dark:text-gold-accent tracking-widest font-bold dark:font-semibold uppercase mb-4 block">
-                02. JNANA YOGA
+                CARD TAG TWO
               </span>
-              <h3 className="text-xl font-serif font-light mb-4 text-[#1e1b42] dark:text-white">Self-Inquiry</h3>
+              <h3 className="text-xl font-serif font-light mb-4 text-[#1e1b42] dark:text-white">Card Title Two</h3>
               <p className="text-xs font-sans text-[#1e1b42] dark:text-white/60 leading-relaxed font-semibold dark:font-light">
-                Investigating the question "Who am I?". Through systematic study of the Upanishads and guided contemplation, we dissect the layers of the ego to discover the unshakeable witness within.
+                Card description text placeholder goes here. This explains the specific focus and context of the card details.
               </p>
             </div>
 
             {/* Stream 3 */}
             <div className="glass-card p-8 rounded-3xl text-left border border-[#E5E0D2] dark:border-white/5 hover:border-gold-primary/25 transition-all duration-300">
               <span className="text-[10px] font-sans text-gold-dark dark:text-gold-accent tracking-widest font-bold dark:font-semibold uppercase mb-4 block">
-                03. BHAKTI YOGA
+                CARD TAG THREE
               </span>
-              <h3 className="text-xl font-serif font-light mb-4 text-[#1e1b42] dark:text-white">Devotional Union</h3>
+              <h3 className="text-xl font-serif font-light mb-4 text-[#1e1b42] dark:text-white">Card Title Three</h3>
               <p className="text-xs font-sans text-[#1e1b42] dark:text-white/60 leading-relaxed font-semibold dark:font-light">
-                Channeling human emotions into divine love. Through kirtan (devotional singing), prayer, and centering the heart on the divine presence in all beings, the ego's isolation naturally dissolves.
+                Card description text placeholder goes here. This explains the specific focus and context of the card details.
               </p>
             </div>
           </div>

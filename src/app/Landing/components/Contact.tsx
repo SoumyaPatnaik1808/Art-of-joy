@@ -43,13 +43,13 @@ export default function Contact() {
           {/* Left Column: Context Info - 5 Cols */}
           <div className="lg:col-span-5 flex flex-col text-left">
             <span className="text-[10px] font-sans tracking-[0.3em] text-gold-dark dark:text-gold-accent font-bold uppercase mb-3">
-              GET IN TOUCH
+              SECTION SUBTITLE
             </span>
             <h2 className="text-4xl md:text-5xl font-serif font-light text-[#1e1b42] dark:text-white tracking-wide leading-tight mb-6">
-              Begin the Journey
+              Section Heading Text
             </h2>
             <p className="text-sm md:text-base font-serif text-[#1e1b42]/80 dark:text-white/70 leading-relaxed font-light mb-8 max-w-sm">
-              If you feel called to explore these devotional media downloads, online courses, or audio packages, we are here to support your practice.
+              Section description paragraph text goes here. This explains the contact options and support resources.
             </p>
 
             <div className="space-y-6 font-sans text-xs md:text-sm text-[#1e1b42]/80 dark:text-white/60 tracking-wider">
@@ -59,9 +59,9 @@ export default function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                 </svg>
                 <div className="flex flex-col">
-                  <span className="font-semibold text-[#1e1b42] dark:text-white">Devotional Bookstore & Media</span>
-                  <span>Online Store Support</span>
-                  <span>9:00 AM - 6:00 PM EST</span>
+                  <span className="font-semibold text-[#1e1b42] dark:text-white">Service Title One</span>
+                  <span>Service Subtitle One</span>
+                  <span>Hours placeholder</span>
                 </div>
               </div>
 
@@ -71,8 +71,8 @@ export default function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 <div className="flex flex-col">
-                  <span className="font-semibold text-[#1e1b42] dark:text-white">Media Support Email</span>
-                  <a href="mailto:support@artofliving.org" className="hover:text-gold-dark dark:hover:text-gold-accent transition-colors duration-300">support@artofliving.org</a>
+                  <span className="font-semibold text-[#1e1b42] dark:text-white">Service Title Two</span>
+                  <a href="mailto:support@example.com" className="hover:text-gold-dark dark:hover:text-gold-accent transition-colors duration-300">support@example.com</a>
                 </div>
               </div>
             </div>
@@ -86,9 +86,9 @@ export default function Contact() {
                   <svg viewBox="0 0 24 24" className="w-12 h-12 text-gold-dark dark:text-gold-accent mx-auto mb-6" fill="none" stroke="currentColor" strokeWidth="2">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <h3 className="text-2xl font-serif text-[#1e1b42] dark:text-white mb-2">Inquiry Received</h3>
+                  <h3 className="text-2xl font-serif text-[#1e1b42] dark:text-white mb-2">Heading Text</h3>
                   <p className="text-xs md:text-sm font-sans text-[#1e1b42]/80 dark:text-white/60">
-                    Thank you for reaching out. Our support team will review your inquiry and reply soon.
+                    Paragraph text placeholder for form submission confirmation.
                   </p>
                 </div>
               ) : (
@@ -106,7 +106,7 @@ export default function Contact() {
                       value={formState.name}
                       onChange={handleChange}
                       className="w-full bg-white/70 border border-[#E5E0D2] text-[#1e1b42] dark:bg-white/5 dark:border-white/10 dark:text-white rounded-xl px-4 py-3 text-sm font-sans focus:outline-none focus:border-gold-primary transition-colors duration-300"
-                      placeholder="Your name"
+                      placeholder="Placeholder"
                     />
                   </div>
 
@@ -160,7 +160,7 @@ export default function Contact() {
                       value={formState.message}
                       onChange={handleChange}
                       className="w-full bg-white/70 border border-[#E5E0D2] text-[#1e1b42] dark:bg-white/5 dark:border-white/10 dark:text-white rounded-xl px-4 py-3 text-sm font-sans focus:outline-none focus:border-gold-primary transition-colors duration-300 resize-none"
-                      placeholder="Share what brought you here..."
+                      placeholder="Message placeholder text..."
                     />
                   </div>
 
@@ -169,7 +169,7 @@ export default function Contact() {
                     type="submit"
                     className="w-full py-4 bg-gold-primary hover:bg-gold-accent text-[#1e1b42] font-semibold text-xs font-sans tracking-[0.25em] rounded-xl transition-all duration-300 uppercase shadow-lg shadow-gold-primary/10 hover:shadow-gold-primary/20 cursor-pointer"
                   >
-                    SEND INQUIRY
+                    Button Text
                   </button>
                 </form>
               )}
@@ -186,7 +186,7 @@ export default function Contact() {
               <rect x="30" y="30" width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" />
               <circle cx="50" cy="50" r="10" fill="none" stroke="currentColor" strokeWidth="1.5" />
             </svg>
-            <span>© 2026 Art of Living Fellowship.</span>
+            <span>© Year Organization Name.</span>
           </div>
 
           {/* Quick Links */}
@@ -198,7 +198,7 @@ export default function Contact() {
           </div>
 
           <span className="text-[10px] text-gold-dark dark:text-gold-accent font-semibold tracking-[0.15em]">
-            AWAKEN TO YOUR TRUE NATURE
+            TAGLINE TEXT PLACEHOLDER
           </span>
         </footer>
 

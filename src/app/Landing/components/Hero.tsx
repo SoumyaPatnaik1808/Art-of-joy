@@ -28,10 +28,10 @@ export default function Hero({ onExploreClick }: HeroProps) {
         <div className="max-w-xl text-left select-none animate-fade-in-up">
           {/* Main Typography Title */}
           <h1 className="text-5xl md:text-7xl lg:text-[5.5rem] font-serif font-light tracking-tight leading-[1.05] text-white">
-            The Journey
-            <span className="block mt-1">from Mind to</span>
+            Hero Heading
+            <span className="block mt-1">Sub-heading Text</span>
             <span className="block mt-2 italic text-gold-accent font-normal font-serif">
-              Consciousness
+              Italic Heading
             </span>
           </h1>
 
@@ -50,7 +50,7 @@ export default function Hero({ onExploreClick }: HeroProps) {
 
           {/* Hero Description */}
           <p className="text-base md:text-lg lg:text-xl font-serif text-white/80 leading-relaxed font-light max-w-lg mb-8 tracking-wide">
-            Journey through the wisdom of the Upanishads, Bhagavad Gita, meditation, and Bhakti traditions to awaken clarity, love, and inner freedom.
+            Hero description text goes here. This is a descriptive paragraph placeholder.
           </p>
           
           {/* Scroll Call to Action */}
@@ -58,7 +58,7 @@ export default function Hero({ onExploreClick }: HeroProps) {
             onClick={onExploreClick}
             className="group flex items-center gap-3 text-gold-accent hover:text-white transition-colors duration-300 font-sans text-xs tracking-[0.25em] bg-transparent border-none cursor-pointer mt-4"
           >
-            <span>DISCOVER THE PILLARS</span>
+            <span>BUTTON TEXT</span>
             <svg 
               className="w-4 h-4 transform group-hover:translate-y-1 transition-transform duration-300"
               fill="none" 

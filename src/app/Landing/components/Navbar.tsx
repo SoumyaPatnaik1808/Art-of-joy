@@ -88,7 +88,7 @@ export default function Navbar({ onScrollTo }: NavbarProps) {
               ART OF JOY
             </span>
             <span className="text-[7px] md:text-[8px] text-gold-dark dark:text-gold-light font-sans font-light tracking-[0.2em] leading-tight">
-              AWAKEN TO YOUR TRUE NATURE
+              TAGLINE TEXT PLACEHOLDER
             </span>
           </div>
         </Link>
@@ -126,7 +126,7 @@ export default function Navbar({ onScrollTo }: NavbarProps) {
             onClick={handleNavClick}
             className="px-6 py-2 rounded-full border border-[#1e1b42]/20 dark:border-gold-primary/30 text-[#1e1b42] dark:text-white hover:border-gold-primary hover:bg-gold-primary/10 transition-all duration-300 text-xs font-sans tracking-[0.15em] bg-white/20 dark:bg-[#12161A]/80 shadow-[0_0_15px_rgba(212,175,55,0.02)] hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] animate-pulse"
           >
-            BEGIN THE JOURNEY
+            ACTION BUTTON
           </Link>
         </div>
 
@@ -173,7 +173,7 @@ export default function Navbar({ onScrollTo }: NavbarProps) {
               onClick={handleNavClick}
               className="w-full py-3 rounded-full border border-gold-primary/30 text-[#1e1b42] bg-gold-primary/5 dark:text-white dark:bg-gold-primary/10 text-xs font-sans tracking-[0.15em] hover:bg-gold-primary/25 transition-all duration-300"
             >
-              BEGIN THE JOURNEY
+              ACTION BUTTON
             </Link>
           </div>
         </div>

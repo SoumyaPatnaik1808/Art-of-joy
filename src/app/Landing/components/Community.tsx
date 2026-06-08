@@ -4,28 +4,28 @@ import Link from "next/link";
 export default function Community() {
   const events = [
     {
-      title: "Meditation Circles",
-      schedule: "Every Wednesday, 7:00 PM EST",
-      format: "Online & In-Person",
-      description: "Join our global collective for weekly group meditations. Includes breathwork, silent sitting, and a shared space for reflections.",
-      actionLabel: "Join Circle",
-      link: "/Landing/community#meditation-circle",
+      title: "Event Title One",
+      schedule: "Schedule Time",
+      format: "Format Name",
+      description: "Event description placeholder text goes here. This describes the event activities and focus areas.",
+      actionLabel: "Button Text",
+      link: "/Landing/community#event-1",
     },
     {
-      title: "Spiritual Satsang",
-      schedule: "First Sunday of the Month, 10:00 AM EST",
-      format: "Hybrid Gathering",
-      description: "Gather for devotional chanting, scripture readings, and a spiritual discourse. A wonderful space to ask questions and connect.",
-      actionLabel: "Register Free",
-      link: "/Landing/community#satsang",
+      title: "Event Title Two",
+      schedule: "Schedule Time",
+      format: "Format Name",
+      description: "Event description placeholder text goes here. This describes the event activities and focus areas.",
+      actionLabel: "Button Text",
+      link: "/Landing/community#event-2",
     },
     {
-      title: "Silent Nature Retreat",
-      schedule: "Autumn Equinox, Sept 18-22, 2026",
-      format: "Residential Retreat",
-      description: "Spend four days in absolute silence in the Catskill Mountains. Organic meals, daily yogic practice, and deep contemplation.",
-      actionLabel: "Apply Today",
-      link: "/Landing/community#retreat",
+      title: "Event Title Three",
+      schedule: "Schedule Time",
+      format: "Format Name",
+      description: "Event description placeholder text goes here. This describes the event activities and focus areas.",
+      actionLabel: "Button Text",
+      link: "/Landing/community#event-3",
     },
   ];
 
@@ -36,10 +36,10 @@ export default function Community() {
         {/* Header */}
         <div className="flex flex-col items-center text-center mb-16 md:mb-20">
           <span className="text-[10px] font-sans tracking-[0.3em] text-gold-dark dark:text-gold-accent font-bold uppercase mb-3">
-            COMMUNITY GATHERINGS
+            SECTION SUBTITLE
           </span>
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#1e1b42] dark:text-white tracking-wide">
-            Shared Presence & Satsang
+            Section Heading Text
           </h2>
           
           <div className="flex items-center gap-3 my-5 w-40">
@@ -49,7 +49,7 @@ export default function Community() {
           </div>
 
           <p className="text-sm md:text-base font-serif text-[#1e1b42] dark:text-white/80 max-w-lg font-semibold dark:font-light leading-relaxed">
-            Spiritual growth is accelerated in the presence of like-minded seekers. Explore our weekly gatherings and immersive retreats.
+            Section description paragraph text goes here. This explains the layout and details.
           </p>
         </div>
 
@@ -88,13 +88,13 @@ export default function Community() {
         {/* Global Satsang CTA */}
         <div className="mt-16 md:mt-24 text-center border-t border-[#E5E0D2] dark:border-white/10 pt-12">
           <p className="font-serif text-sm italic text-[#1e1b42] dark:text-white/70 font-semibold dark:font-light mb-4">
-            Looking for something daily? Join our online meditation space, open 24/7.
+            Paragraph text placeholder for additional call-to-action layout.
           </p>
           <Link
             href="/Landing/community#daily-space"
             className="text-xs font-sans tracking-[0.25em] text-gold-dark dark:text-gold-accent font-bold hover:text-[#1e1b42] dark:hover:text-white transition-colors duration-300 uppercase inline-flex items-center gap-2"
           >
-            ENTER THE ONLINE SATSANG HALL
+            LINK TEXT PLACEHOLDER
             <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>

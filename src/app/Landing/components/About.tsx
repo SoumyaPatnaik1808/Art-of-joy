@@ -33,22 +33,22 @@ export default function About() {
           {/* Text Content - 7 Cols */}
           <div className="lg:col-span-7 flex flex-col text-left">
             <span className="text-[10px] font-sans tracking-[0.3em] text-gold-dark dark:text-gold-accent font-bold uppercase mb-3">
-              THE MISSION
+              SECTION SUB-HEADING
             </span>
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#1e1b42] dark:text-white tracking-wide leading-tight mb-6">
-              The Path to Joyful Awakening
+              Section Heading Text Placeholder
             </h2>
             
             <p className="text-xl md:text-2xl font-serif italic text-gold-dark dark:text-gold-accent font-medium leading-relaxed mb-8 border-l-2 border-gold-primary pl-6 my-4">
-              "Your true nature is not sorrow, agitation, or fear. You are the deep space of silence, clarity, and limitless joy."
+              "Quote placeholder text goes here in this block. This is a callout statement."
             </p>
 
             <div className="space-y-6 text-sm md:text-base font-serif text-[#1e1b42] dark:text-white/70 leading-relaxed font-semibold dark:font-light">
               <p>
-                We believe that modern life, with all its speeds and stimulations, can often overshadow the natural radiance of the mind. By integrating the timeless philosophy of non-duality (Advaita), the active devotion of Bhakti, and the silent, structured paths of meditation, we guide you back to your true self.
+                Paragraph text placeholder for the first block. This describes the background and contextual details of the section layout.
               </p>
               <p>
-                Our mission is simple: to make the deepest spiritual truths accessible, practical, and livable. We do not ask you to withdraw from the world, but to enter it fully, with a heart overflowing with love and a mind rooted in clarity.
+                Paragraph text placeholder for the second block. This continues to expand on the layout description and details.
               </p>
             </div>
 
@@ -58,12 +58,12 @@ export default function About() {
                 href="/Landing/about"
                 className="px-8 py-3 rounded-full bg-[#1e1b42] dark:bg-gold-primary hover:bg-gold-dark dark:hover:bg-gold-accent text-white transition-all duration-300 text-xs font-sans tracking-[0.2em] uppercase shadow-lg font-bold"
               >
-                Read Our Story
+                Button Text
               </Link>
               
               <div className="flex flex-col text-left font-serif text-xs md:text-sm italic text-[#1e1b42]/80 dark:text-white/60">
-                <span className="font-bold text-[#1e1b42] dark:text-white">Art of Living Fellowship</span>
-                <span>Est. 2026</span>
+                <span className="font-bold text-[#1e1b42] dark:text-white">Organization Name</span>
+                <span>Est. Year</span>
               </div>
             </div>
 

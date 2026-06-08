@@ -5,28 +5,28 @@ import Link from "next/link";
 export default function Courses() {
   const coursesList = [
     {
-      title: "The Upanishads",
-      subtitle: "The Philosophy of Non-Duality",
+      title: "Course Title One",
+      subtitle: "Course Subtitle One",
       image: "/upanishad.png",
-      description: "Delve into the core teachings of Advaita Vedanta. Explore the relationship between the individual soul (Atman) and the ultimate reality (Brahman) to awaken true self-realization.",
-      tag: "Wisdom",
-      link: "/Landing/courses#upanishads",
+      description: "Description for the course goes here. This is a brief overview of what the course will cover and what students can expect to learn.",
+      tag: "Tag Name",
+      link: "/Landing/courses#course-1",
     },
     {
-      title: "Bhagavad Gita",
-      subtitle: "The Science of Self-Realization",
+      title: "Course Title Two",
+      subtitle: "Course Subtitle Two",
       image: "/bhagvat-gita.png",
-      description: "Unravel Sri Krishna's teachings on duty, yoga, and devotion on the battlefield of life. Learn practical wisdom for achieving inner stability, clarity, and peace.",
-      tag: "Action",
-      link: "/Landing/courses#gita",
+      description: "Description for the course goes here. This is a brief overview of what the course will cover and what students can expect to learn.",
+      tag: "Tag Name",
+      link: "/Landing/courses#course-2",
     },
     {
-      title: "Bhakti Traditions",
-      subtitle: "The Path of Devotion & Love",
+      title: "Course Title Three",
+      subtitle: "Course Subtitle Three",
       image: "/bhakti.png",
-      description: "Cultivate pure love and surrender. Connect deeply with the divine through chanting, stories of saints, and heart-centered practices designed to dissolve the separation of the ego.",
-      tag: "Devotion",
-      link: "/Landing/courses#bhakti",
+      description: "Description for the course goes here. This is a brief overview of what the course will cover and what students can expect to learn.",
+      tag: "Tag Name",
+      link: "/Landing/courses#course-3",
     },
   ];
 
@@ -40,10 +40,10 @@ export default function Courses() {
         {/* Section Title */}
         <div className="flex flex-col items-center text-center mb-16 md:mb-20">
           <span className="text-[10px] font-sans tracking-[0.3em] text-gold-dark dark:text-gold-accent font-bold uppercase mb-3">
-            WISDOM TRANSMISSION
+            SECTION SUBTITLE
           </span>
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#1e1b42] dark:text-white tracking-wide">
-            Sacred Teachings & Courses
+            Section Heading Text
           </h2>
           
           {/* Subtle star line divider */}
@@ -54,7 +54,7 @@ export default function Courses() {
           </div>
           
           <p className="text-sm md:text-base font-serif text-[#1e1b42] dark:text-white/80 max-w-lg font-semibold dark:font-light leading-relaxed">
-            Ancient scriptures translated into practical tools for self-inquiry, mental clarity, and spiritual awakening.
+            Section description paragraph text goes here. This explains the layout below.
           </p>
         </div>
 
@@ -97,7 +97,7 @@ export default function Courses() {
                   href={course.link} 
                   className="flex items-center gap-2 text-[10px] font-sans text-[#1e1b42] dark:text-white/95 tracking-[0.2em] font-bold group-hover:text-gold-dark dark:group-hover:text-gold-light transition-colors duration-300 uppercase mt-auto self-start"
                 >
-                  Explore Teachings
+                  Link Text
                   <svg 
                     className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform duration-300"
                     fill="none" 
